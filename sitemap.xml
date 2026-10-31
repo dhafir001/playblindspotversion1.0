@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- 1. Halaman Utama / Game Core (index.html) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
   <url>
     <loc>https://playblindspot.biz.id/</loc>
     <lastmod>2026-10-31</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-
-  <!-- 2. Halaman Tentang / Cerita Game (Opsional jika ada halaman terpisah) -->
-  <url>
-    <loc>https://playblindspot.biz.id/about.html</loc>
-    <lastmod>2026-10-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- 3. Halaman Kebijakan Privasi / Ketentuan (Opsional standar web) -->
-  <url>
-    <loc>https://playblindspot.biz.id/privacy.html</loc>
-    <lastmod>2026-10-31</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 
 </urlset>
