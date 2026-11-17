@@ -68,8 +68,7 @@
         <span>CAM_04 // SECTOR: SUB-BASEMENT</span>
       </div>
       <div class="hud-telemetry">
-        <div id="hud-clock">OCT 29 // 03:14:09 AM</div>
-        <div id="hud-fov-status">OPTIC_SENS: 1.0x | QUALITY: HIGH</div>
+        <div id="hud-clock">November 00:00:00 AM</div>
       </div>
     </header>
 
@@ -99,8 +98,8 @@
 
     <!-- Bottom HUD Status -->
     <footer class="hud-bottom-bar">
-      <div>BUILD v1.0.5 // THREE.JS WEBGL-3D ENGINE READY</div>
-      <div id="blindspot-status" class="blindspot-alert-indicator">PERIPHERAL_SCAN: STABLE</div>
+      <div>BUILD vDemo</div>
+      <div id="blindspot-status" class="blindspot-alert-indicator">DEVICE_SCAN</div>
     </footer>
   </main>
 
@@ -198,15 +197,14 @@
   <div id="credits-modal-backdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="credits-modal-title">
     <div class="horror-modal">
       <div class="modal-header">
-        <h2 id="credits-modal-title" class="modal-title">CREDITS // PERINGATAN</h2>
+        <h2 id="credits-modal-title" class="modal-title">CREDITS atau PERINGATAN</h2>
         <button type="button" id="btn-close-credits-x" class="modal-close-icon" data-ui-sfx="true" aria-label="Tutup Credits">ESC [X]</button>
       </div>
 
       <div class="credits-box">
         <p><strong>BLINDSPOT — 3D WEB PSYCHOLOGICAL HORROR</strong></p>
-        <p>Direction &amp; Atmosphere Architecture: <strong>Studio Voidsector</strong></p>
+        <p>Direction &amp; Atmosphere Architecture: <strong>SECTOR_SCAN</strong></p>
         <p>Audio Path Integration: <code>assets/audio/bgm_menu.mp3</code>, <code>intro_01..12.mp3</code>, <code>phone_01..05.mp3</code>, <code>game_start_01..03.mp3</code></p>
-        <p>3D Engine: Three.js WebGL FPP Bedroom, Procedural Furniture, Flashlight &amp; Diegetic Smartphone</p>
       </div>
 
       <div class="quit-warning-box">
@@ -272,18 +270,18 @@
       <div class="phone-screen">
         <div class="phone-statusbar">
           <span id="phone-signal-indicator" class="phone-signal-wrap">
-            <span class="signal-bar-unstable">&#9602;</span> 1 BAR // UNSTABLE
+            <span class="signal-bar-unstable">&#9602;</span> ᯤ
           </span>
-          <span id="phone-glitch-clock">03:14</span>
+          <span id="phone-glitch-clock">00:00</span>
         </div>
 
         <!-- Daftar Obrolan Grup yang Terhenti -->
-        <div class="phone-section-title">PESAN GRUP // TIDAK ADA RESPONS</div>
+        <div class="phone-section-title">GROUP CHAT</div>
         <div class="phone-chat-list">
           <div class="phone-chat-item">
             <div class="phone-chat-header">
               <span>Campus Group (48)</span>
-              <span class="phone-chat-time">21:42 &bull; Mati</span>
+              <span class="phone-chat-time">21:42 &bull; No Internet</span>
             </div>
             <div class="phone-chat-preview">
               &ldquo;Sirene kampus bunyi terus... kok nggak ada satupun yang balas chat?!&rdquo;
@@ -331,11 +329,11 @@
         </div>
 
         <div id="phone-noservice-banner" role="alert">
-          TIDAK ADA LAYANAN / NO SERVICE
+          ᯤ No Service
         </div>
 
         <div class="phone-hint-footer">
-          [TAB / H] Buka/Tutup Ponsel &bull; [ENTER] Panggil
+          [TAB / H] Buka/Tutup Ponsel &bull; [ENTER] Call
         </div>
       </div>
     </aside>
@@ -345,12 +343,12 @@
       <div class="fpp-top-row">
         <div id="fpp-objective-text">OBJEKTIF: Periksa ponselmu dan telepon Mark</div>
         <div class="fpp-hud-status-group">
-          <span id="fpp-speaking-lock-badge">SUARA / TRANSMISI AKTIF</span>
+          <span id="fpp-speaking-lock-badge">SUARA AKTIF</span>
           <span id="fpp-radio-status" class="fpp-equip-badge" style="display: none;">
             <svg class="hud-radio-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" style="vertical-align: -1px; margin-right: 4px; fill: currentColor;">
               <path d="M5 1a1 1 0 0 1 1 1v3h4a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2a1 1 0 0 1 1-1zm1 6v2h4V7H6zm0 4v2h4v-2H6z"/>
             </svg>
-            <span id="fpp-radio-status-text">RADIO HT: AKTIF</span>
+            <span id="fpp-radio-status-text">RADIO: ON</span>
           </span>
           <span id="fpp-flashlight-status" class="fpp-equip-badge">[F] SENTER: MATI</span>
           <span id="fpp-key-status" class="fpp-equip-badge">KUNCI KAMAR: BELUM ADA</span>
@@ -372,7 +370,7 @@
     <div id="pause-menu-overlay" role="dialog" aria-modal="true" aria-labelledby="pause-menu-title" aria-hidden="true">
       <div class="pause-modal-card">
         <h2 id="pause-menu-title" class="pause-title">BLINDSPOT - JEDA</h2>
-        <p class="pause-subtitle">PERMAINAN DIJEDA SEMENTARA // [ESC]</p>
+        <p class="pause-subtitle">PERMAINAN DIJEDA SEMENTARA [ESC]</p>
 
         <div class="pause-btn-group">
           <button type="button" id="btn-pause-resume" class="menu-btn" data-ui-sfx="true">
@@ -416,7 +414,7 @@
           <p class="pause-confirm-text">Apakah Anda yakin ingin keluar ke Menu Utama?</p>
           <div class="pause-confirm-actions">
             <button type="button" id="btn-pause-quit-cancel" class="action-btn secondary">Batal</button>
-            <button type="button" id="btn-pause-quit-confirm" class="action-btn">Ya, Keluar</button>
+            <button type="button" id="btn-pause-quit-confirm" class="action-btn">Keluar</button>
           </div>
         </div>
       </div>
